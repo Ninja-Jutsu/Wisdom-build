@@ -2,6 +2,8 @@ const express = require('express')
 const cookieParser = require('cookie-parser')
 const cors = require('cors')
 console.log(process.env.FRONT_END_URL)
+console.log(process.env.PORT)
+
 // Very important in order to access your cookies on Frontend
 const corsOptions = {
   origin: process.env.FRONT_END_URL, // Replace with your frontend origin

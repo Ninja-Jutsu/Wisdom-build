@@ -4,4 +4,3 @@ const app = express()
 
 require('./startup/db')(app)
 require('./startup/routes')(app)
-
