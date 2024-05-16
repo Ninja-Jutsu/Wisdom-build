@@ -584,3 +584,7 @@
 2024-05-16T16:31:16.629Z [my-app] info: Connected to MongoDB..
 2024-05-16T16:31:28.069Z [my-app] warn: checkUser: Token not found
 2024-05-16T16:31:33.474Z [my-app] warn: checkUser: Token not found
+2024-05-16T16:48:54.786Z [my-app] info: Server is listening on port: 5000
+2024-05-16T16:48:55.051Z [my-app] info: Connected to MongoDB..
+2024-05-16T16:49:18.028Z [my-app] warn: checkUser: Token not found
+2024-05-16T16:49:23.181Z [my-app] warn: checkUser: Token not found
