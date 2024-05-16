@@ -3,8 +3,8 @@ const mongoose = require('mongoose')
 const Schema = mongoose.Schema
 
 const PostSchema = new Schema({
-  title: { type: String, required: true, maxlength: 100, minlength: 5 },
-  desc: { type: String, required: true, maxlength: 500, minlength: 5 },
+  title: { type: String, required: true, maxlength: 200, minlength: 5 },
+  desc: { type: String, required: true, maxlength: 2500, minlength: 5 },
   user: { type: Schema.Types.ObjectId, ref: 'User', require: true},
   createdOn: { type: Date, default: new Date() },
   comments : [{ type: Schema.Types.ObjectId, ref: 'Comment'}],
